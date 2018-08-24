@@ -38,7 +38,7 @@ export const editPassword = (uname: string) => {
 const getDataFromFirebase = (uname: string, upassword: string) => {
     if (!firebase.apps.length) {
         let config = {
-            apiKey: "AIzaSyAFNOiOgvgz73M_4CQhUGmulrTeFIeUyvs",
+            apiKey: "",
             authDomain: "html-test-13e6c.firebaseapp.com",
             databaseURL: "https://html-test-13e6c.firebaseio.com",
             projectId: "html-test-13e6c",
